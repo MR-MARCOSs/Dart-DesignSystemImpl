@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 
 class ProfilePageFactory {
   static Widget create(userEmail) {
-    return ProfilePage(userEmail: userEmail,);
+    return ProfilePage(
+      userEmail: userEmail,
+      userData: {},
+    );
   }
 }

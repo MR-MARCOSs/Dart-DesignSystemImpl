@@ -6,7 +6,10 @@ import 'package:flutter/material.dart';
 
 class ProfilePage extends StatelessWidget {
   String userEmail;
-  ProfilePage({super.key, required this.userEmail});
+  ProfilePage(
+      {super.key,
+      required this.userEmail,
+      required Map<String, dynamic> userData});
 
   final List functions = [
     'Edit Name',
